@@ -17,18 +17,5 @@
   },
   "devDependencies": {
     "tree-sitter-cli": "^0.20.6"
-  },
-  "tree-sitter": [
-    {
-      "scope": "source.mdx",
-      "file-types": [
-        "mdx"
-      ],
-      "highlights": [
-        "queries/highlights-jsx.scm",
-        "queries/highlights.scm"
-      ],
-      "injection-regex": "^(mdx)$"
-    }
-  ]
+  }
 }
